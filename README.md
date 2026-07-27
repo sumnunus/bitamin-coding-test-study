@@ -1,1 +1,0 @@
-# bitamin-coding-test-study
