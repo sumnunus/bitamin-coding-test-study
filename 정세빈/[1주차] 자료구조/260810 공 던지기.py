@@ -1,0 +1,19 @@
+def solution(numbers, k):
+    answer = 0
+    index = 0
+    for i in range(0,k-1):
+        index = (index+2)%len(numbers)
+    answer =  numbers[index]
+        
+    return answer
+
+# def solution(numbers, k):
+#     return numbers[2*(k-1)%len(numbers)]
+
+# from collections import deque
+# def solutions(numbers,k):
+#     array = deque(numbers)
+
+#     array.rotate(-(k-1)*2)
+
+#     return array[0]
